@@ -1,0 +1,34 @@
+.stars-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    background: #131862;
+  }
+  
+  .star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: drift 60s infinite linear;
+  }
+  
+  .star {
+    width: 5px;
+    height: 5px;
+    animation-duration: calc(60s + 60 * random())s;
+    animation-delay: calc(-10s * random());
+  }
+  
+  @keyframes drift {
+    0% {
+      transform: translateY(0) translateX(0);
+    }
+    100% {
+      transform: translateY(100vh) translateX(100vw);
+    }
+  }
