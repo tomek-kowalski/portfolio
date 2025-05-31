@@ -118,8 +118,8 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-              <button onClick={() => i18n.changeLanguage("en")}>🇬🇧 English</button>
-              <button onClick={() => i18n.changeLanguage("de")}>🇩🇪 Deutsch</button>
+              <button onClick={() => i18n.changeLanguage("en")}>English</button>
+              <button onClick={() => i18n.changeLanguage("de")}>Deutsch</button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
