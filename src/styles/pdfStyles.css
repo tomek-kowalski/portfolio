@@ -24,6 +24,18 @@
     color:#000000!important;
 }
 
+.react-pdf__Page span {
+  letter-spacing: 0.02em;
+}
+
+.react-pdf__Page span::after {
+  content: attr(data-text);
+}
+
+.react-pdf__Page span[data-text*=","] {
+  margin-right: 0.1em;
+}
+
 @media screen and (forced-colors: active) {
   :root {
     --highlight-bg-color: Highlight;
