@@ -250,26 +250,6 @@ button:focus {
   height: 100%;
 }
 
-.home-header {
-  padding-top: 80px !important;
-}
-
-.home-section {
-  position: relative;
-  z-index: -1;
-  /*background-image: var(--image-gradient), url(./Assets/home-bg.jpg);*/
-  background-position: top center;
-  background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
-}
-
-.home-content {
-  padding: 9rem 0 2rem !important;
-  color: whitesmoke;
-  text-align: left;
-}
-
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
@@ -302,18 +282,6 @@ button:focus {
   }
   .Typewriter__cursor {
     display: none !important;
-  }
-}
-
-.myAvtar {
-  justify-content: center !important;
-  padding-top: 9em !important;
-}
-
-@media (max-width: 767px) {
-  .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
   }
 }
 
@@ -402,6 +370,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
+  position:fixed;
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
@@ -866,4 +835,4 @@ fieldset {
 .error {
   color: #ffca99;
   padding: 0 1rem;
-}
+} 

@@ -1,0 +1,37 @@
+button.getintouch {
+  padding: 15px;
+  font-weight: 600;
+  margin:100px auto 200px auto;
+  max-width:250px;
+}
+button.getintouch.acitve {
+  padding: 15px;
+  font-weight: 600;
+  margin:100px auto 200px auto;
+  max-width:250px;
+}
+.homeheader {
+  padding-top: 80px !important;
+}
+.homesection {
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+
+@media (max-width: 767px) {
+  .homecontent {
+    padding: 0px;
+    color: whitesmoke;
+    text-align: left;
+  }
+}
+@media(min-width:768px) {
+    .homecontent {
+      padding: 9rem 0 2rem !important;
+      color: whitesmoke;
+      text-align: left;
+    }
+}
+
